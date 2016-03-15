@@ -1,7 +1,7 @@
 #include <gtk/gtk.h>
 
 /* For compile the file with the right flags:
- * gcc `pkg-config --cflags gtk+-3.0` -o simple-window simple-window.c `pkg-config --libs gtk+-3.0`
+ * gcc `pkg-config --cflags gtk+-3.0` -o simple-button simple-button.c `pkg-config --libs gtk+-3.0`
  */
 
 static void print_callback (GtkWidget *widget, gpointer data)
